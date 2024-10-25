@@ -25,7 +25,7 @@ This method is called in several places:
 * To look up the "default" surcharges so that sample surcharges can be
   shown on the basket detail page.
 
-* To give the applicable surcharges to the order total calculator so wo can show the correct price breakdown.
+* To give the applicable surcharges to the order total calculator so we can show the correct price breakdown.
 
 The ``get_applicable_surcharges`` method takes the basket and any other kwargs.
 These kwargs can later be determined when setting up your own surcharges.
